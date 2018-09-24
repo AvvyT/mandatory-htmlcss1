@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#About{
+  background-color: red;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+  background-image: url("Collection_GoogleFonts_2x1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav a{
+  width: 15%;
+  height: 30px;
+  background-color:#7264d1;
+  margin:1em;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+nav a:hover{
+  background-color:lightgrey;
+
+}
+
+main{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+img{
+border-radius: 15px;
+margin-top: 15px;
+margin-left: 45%;
+margin-right: 45%;
+position: fixed;
+}
+
+footer{
+  width: 100%;
+  height: 10%;
+  background-color:#ef4f4f;
+  text-align: center;
+}
+
+h2{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  margin-top: 20%;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: cursive;
+
+}
+h1{
+  font-family: fantasy;
+  text-decoration: underline;
+}

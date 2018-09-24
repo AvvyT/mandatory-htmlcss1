@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#Index{
+  background-color: red;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+  background-image: url("Collection_GoogleFonts_2x1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav a{
+  width: 15%;
+  height: 30px;
+  background-color:#7264d1;
+  margin:1em;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+nav a:hover{
+  background-color:lightgrey;
+
+}
+
+main{
+  width: 100%;
+  height: 60%
+}
+
+footer{
+  width: 100%;
+  height: 20%;
+  background-color:#ef4f4f;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 30px;
+  font-size: 30px;
+  color: lightgrey;
+}
+.icon:hover{
+ color: green;
+}
+
+.contenttxt{
+  max-width: 1000px;
+  height: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4px;
+  font-family: arial;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+h2, h3{
+  color: black;
+  margin-left: 10%;
+  font-weight: bold;
+  line-height: 2.5;
+}
+h2{
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  font-family: cursive;
+}
+h1{
+  font-family: fantasy;
+  text-decoration: underline;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 22px;
+  font-family:  cursive;
+
+}
